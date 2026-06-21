@@ -41,14 +41,14 @@ tickets table                runs locally, no API call)
 
 ```
 ticketing-tool/
-├── app.py                          # Streamlit UI and page logic
-├── db.py                           # Supabase data-access functions
-├── ai_utils.py                     # AI layer: categorize, similar-ticket search, draft response
-├── schema.sql                      # Run once in Supabase SQL Editor to create the tickets table
-├── requirements.txt                # Python dependencies
+├── app.py                         
+├── db.py                          
+├── ai_utils.py                     
+├── schema.sql                      
+├── requirements.txt                
 ├── .streamlit/
-│   └── secrets.toml.example        # Template for API keys (copy to secrets.toml, fill in, never commit)
-├── .gitignore                      # Keeps secrets.toml out of version control
+│   └── secrets.toml.example        
+├── .gitignore                     
 └── README.md
 ```
 
