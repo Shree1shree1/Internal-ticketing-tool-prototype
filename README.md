@@ -13,7 +13,6 @@
 cd ticketing-tool
 pip install -r requirements.txt
 cp .streamlit/secrets.toml.example .streamlit/secrets.toml
-# paste your real SUPABASE_URL, SUPABASE_KEY, GROQ_API_KEY into secrets.toml
 streamlit run app.py
 ```
 
